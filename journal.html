@@ -1,278 +1,461 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Journal — End of the World Travel</title>
-  <meta name="description" content="Editorial stories, field dispatches, and travel essays from Chile's southernmost territories: Magallanes Region, Tierra del Fuego, Cape Horn, Beagle Channel, and Antarctica.">
-  <link rel="canonical" href="https://endoftheworldtravel.com/journal.html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Journal — End of the World Travel</title>
+    <meta
+      name="description"
+      content="Editorial stories, field dispatches, and travel essays from Chile's southernmost territories: Magallanes Region, Tierra del Fuego, Cape Horn, Beagle Channel, and Antarctica."
+    />
+    <link rel="canonical" href="https://endoftheworld.travel/journal.html" />
 
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://endoftheworldtravel.com/journal.html">
-  <meta property="og:title" content="Travel Journal — End of the World Travel">
-  <meta property="og:description" content="Field dispatches and editorial essays from Chile's extreme south. Stories from Magallanes, Tierra del Fuego, Cape Horn, Beagle Channel, and Antarctica.">
-  <meta property="og:image" content="https://endoftheworldtravel.com/images/beagle-channel.jpg">
-  <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://endoftheworld.travel/journal.html"
+    />
+    <meta
+      property="og:title"
+      content="Travel Journal — End of the World Travel"
+    />
+    <meta
+      property="og:description"
+      content="Field dispatches and editorial essays from Chile's extreme south. Stories from Magallanes, Tierra del Fuego, Cape Horn, Beagle Channel, and Antarctica."
+    />
+    <meta
+      property="og:image"
+      content="https://endoftheworld.travel/images/beagle-channel.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Blog",
-    "name": "End of the World Travel Journal",
-    "description": "Editorial dispatches and travel essays from the world's southernmost destinations",
-    "url": "https://endoftheworldtravel.com/journal.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "End of the World Travel"
-    }
-  }
-  </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "End of the World Travel Journal",
+        "description": "Editorial dispatches and travel essays from the world's southernmost destinations",
+        "url": "https://endoftheworld.travel/journal.html",
+        "publisher": {
+          "@type": "Organization",
+          "name": "End of the World Travel"
+        }
+      }
+    </script>
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
-</head>
-<body>
-
-  <nav class="nav" id="nav" aria-label="Main navigation">
-    <a href="index.html" class="nav__logo">
-      <span class="nav__logo-main">End of the World</span>
-      <span class="nav__logo-sub">Travel Editorial</span>
-    </a>
-    <ul class="nav__links" role="list">
-      <li><a href="index.html" class="nav__link">Home</a></li>
-      <li><a href="destinations.html" class="nav__link">Destinations</a></li>
-      <li><a href="experiences.html" class="nav__link">Experiences</a></li>
-      <li><a href="antarctica.html" class="nav__link">Antarctica</a></li>
-      <li><a href="journal.html" class="nav__link">Journal</a></li>
-      <li><a href="about.html" class="nav__link">About</a></li>
-    </ul>
-    <button class="nav__hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
-  </nav>
-  <div class="nav__mobile" id="mobileNav" role="dialog">
-    <button class="nav__close" id="navClose">✕</button>
-    <a href="index.html" class="nav__mobile-link">Home</a>
-    <a href="destinations.html" class="nav__mobile-link">Destinations</a>
-    <a href="experiences.html" class="nav__mobile-link">Experiences</a>
-    <a href="antarctica.html" class="nav__mobile-link">Antarctica</a>
-    <a href="journal.html" class="nav__mobile-link">Journal</a>
-    <a href="about.html" class="nav__mobile-link">About</a>
-  </div>
-
-  <main id="main-content">
-
-    <!-- Page Hero -->
-    <section class="page-hero" aria-label="Journal hero">
-      <div class="page-hero__bg">
-        <img src="images/cape-horn.jpg" alt="Cape Horn at the end of the world" class="page-hero__img" fetchpriority="high">
-        <div class="page-hero__overlay"></div>
-      </div>
-      <div class="page-hero__content">
-        <div class="container">
-          <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="index.html">Home</a>
-            <span class="breadcrumb__sep">›</span>
-            <span>Travel Journal</span>
-          </nav>
-          <span class="text-label">Field Dispatches · Essays · Stories</span>
-          <h1 class="text-hero" style="margin-top:0.5rem;">The Travel Journal</h1>
-        </div>
-      </div>
-    </section>
-
-    <!-- Journal Intro -->
-    <section class="section--sm section--dark">
-      <div class="container--narrow">
-        <p class="text-body fade-in" style="text-align:center;font-size:1.1rem;">
-          These are the stories that don't fit neatly into destination guides. Field dispatches, personal essays, and detailed accounts of journeys to the most remote corners of the southern world.
-        </p>
-      </div>
-    </section>
-
-    <!-- Featured Story -->
-    <section class="section" aria-labelledby="featured-journal-title">
-      <div class="container">
-        <div class="section__header fade-in">
-          <span class="text-label">Featured Essay</span>
-        </div>
-        <article class="feature-story fade-in" id="drake">
-          <div class="feature-story__img-wrap">
-            <img src="images/antarctica.jpg" alt="Drake Passage crossing to Antarctica" class="feature-story__img" loading="lazy">
-          </div>
-          <div class="feature-story__content">
-            <div class="text-label">Antarctica · January 2026</div>
-            <h2 class="feature-story__title" id="featured-journal-title">
-              Two Days in the Drake Passage
-            </h2>
-            <p class="feature-story__body">
-              The Drake Passage has a reputation. The most treacherous body of water on Earth — 1,000 km of open ocean between Cape Horn and the South Shetland Islands, where the unimpeded westerly winds of the roaring forties and furious fifties accelerate to speeds that can sustain 8-meter swells for weeks at a time.
-            </p>
-            <p class="feature-story__body">
-              We left Puerto Williams at 6 pm on a Tuesday in January. By midnight, the ship was rolling with a rhythm that would define the next 48 hours. And yet — the crossing was magnificent. The albatrosses arrived the first morning, drawn from what felt like the open atmosphere itself, to wheel alongside the ship in displays of aerial mastery that seemed to mock the very concept of difficulty.
-            </p>
-            <div class="feature-story__meta">
-              <span class="feature-story__meta-item">Long Read</span>
-              <span class="feature-story__meta-item">·</span>
-              <span class="feature-story__meta-item">12 min read</span>
-              <span class="feature-story__meta-item">·</span>
-              <span class="feature-story__meta-item">Antarctica</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- Article Grid -->
-    <section class="section section--dark" aria-labelledby="articles-title">
-      <div class="container">
-        <div class="section__header fade-in">
-          <span class="text-label">All Stories</span>
-          <h2 class="text-section section__title" id="articles-title">From the Field</h2>
-        </div>
-
-        <div class="grid-3">
-          <article class="article-card fade-in" id="dientes">
-            <a href="#dientes">
-              <div class="article-card__img-wrap">
-                <img src="images/tierra-del-fuego.jpg" alt="Dientes de Navarino trekking circuit" class="article-card__img" loading="lazy">
-                <span class="article-card__tag">Trekking</span>
-              </div>
-              <div class="article-card__date">November 2025 · 8 min read</div>
-              <h3 class="article-card__title">Walking the Dientes: Navarino's Wild Circuit</h3>
-              <p class="article-card__excerpt">The southernmost multi-day trek in the world. Five days through jagged peaks, glacial lakes, and views that seem to encompass the entire southern world.</p>
-            </a>
-          </article>
-
-          <article class="article-card fade-in" id="magellan">
-            <a href="#magellan">
-              <div class="article-card__img-wrap">
-                <img src="images/strait-magellan.jpg" alt="Strait of Magellan historic passage" class="article-card__img" loading="lazy">
-                <span class="article-card__tag">History</span>
-              </div>
-              <div class="article-card__date">October 2025 · 10 min read</div>
-              <h3 class="article-card__title">Sailing Magellan's Route: Five Centuries Later</h3>
-              <p class="article-card__excerpt">In 1520, Magellan threaded his fleet through 580 km of channels. We followed his wake by expedition ship — in considerably more comfort, but no less wonder.</p>
-            </a>
-          </article>
-
-          <article class="article-card fade-in" id="beagle">
-            <a href="#beagle">
-              <div class="article-card__img-wrap">
-                <img src="images/beagle-channel.jpg" alt="Beagle Channel at dusk" class="article-card__img" loading="lazy">
-                <span class="article-card__tag">Nature</span>
-              </div>
-              <div class="article-card__date">September 2025 · 9 min read</div>
-              <h3 class="article-card__title">Darwin's Channel: Science on the Beagle</h3>
-              <p class="article-card__excerpt">Charles Darwin sailed these waters in 1833. His observations here would eventually change biology forever. We navigated the same channel with the same sense of living discovery.</p>
-            </a>
-          </article>
-
-          <article class="article-card fade-in">
-            <a href="#">
-              <div class="article-card__img-wrap">
-                <img src="images/puerto-williams.jpg" alt="Puerto Williams, world's southernmost city" class="article-card__img" loading="lazy">
-                <span class="article-card__tag">Dispatch</span>
-              </div>
-              <div class="article-card__date">August 2025 · 6 min read</div>
-              <h3 class="article-card__title">Life in Puerto Williams: End of the Road</h3>
-              <p class="article-card__excerpt">A week in the world's southernmost city. The bar on the hill. The museum dedicated to the Yaghan people. The mountains behind, always watching.</p>
-            </a>
-          </article>
-
-          <article class="article-card fade-in">
-            <a href="#">
-              <div class="article-card__img-wrap">
-                <img src="images/cape-horn.jpg" alt="Cape Horn lighthouse" class="article-card__img" loading="lazy">
-                <span class="article-card__tag">Essay</span>
-              </div>
-              <div class="article-card__date">July 2025 · 7 min read</div>
-              <h3 class="article-card__title">The Lighthouse Keeper's World: Cape Horn</h3>
-              <p class="article-card__excerpt">A Chilean naval family lives on Cape Horn, maintaining the lighthouse. For four months a year, they are the most isolated people in South America. What is that like?</p>
-            </a>
-          </article>
-
-          <article class="article-card fade-in">
-            <a href="#">
-              <div class="article-card__img-wrap">
-                <img src="images/punta-arenas.jpg" alt="Punta Arenas historical city" class="article-card__img" loading="lazy">
-                <span class="article-card__tag">Culture</span>
-              </div>
-              <div class="article-card__date">June 2025 · 8 min read</div>
-              <h3 class="article-card__title">Punta Arenas: A City at the End of Everything</h3>
-              <p class="article-card__excerpt">The capital of Chilean Patagonia is one of the world's most historically layered cities — a place where Victorian mansions face Patagonian storms across the Strait of Magellan.</p>
-            </a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Newsletter -->
-    <section class="section--sm">
-      <div class="container">
-        <div class="newsletter fade-in">
-          <span class="text-label">New Stories</span>
-          <h2 class="text-card-title" style="margin-top:0.5rem;font-size:1.8rem;">The Southernmost Dispatch</h2>
-          <p class="text-body" style="margin-top:0.75rem;max-width:500px;margin-left:auto;margin-right:auto;">
-            Receive new journal essays and field dispatches quarterly. No noise, no frequency — only when we have something worth saying.
-          </p>
-          <form class="newsletter__form" aria-label="Newsletter signup">
-            <label for="journal-email" class="sr-only">Email address</label>
-            <input type="email" id="journal-email" name="email" class="newsletter__input" placeholder="Your email address" required autocomplete="email">
-            <button type="submit" class="newsletter__btn">Subscribe</button>
-          </form>
-          <p class="text-caption" style="margin-top:0.75rem;">No spam. Unsubscribe anytime.</p>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="footer__top">
-        <div>
-          <div class="footer__brand-name">End of the World</div>
-          <div class="footer__brand-sub">Travel Editorial</div>
-          <p class="footer__tagline">A premium editorial guide to the southernmost reaches of the Earth.</p>
-        </div>
-        <div>
-          <div class="footer__col-title">Destinations</div>
-          <ul class="footer__links" role="list">
-            <li><a href="destinations.html#puerto-williams" class="footer__link">Puerto Williams</a></li>
-            <li><a href="destinations.html#cape-horn" class="footer__link">Cape Horn</a></li>
-            <li><a href="destinations.html#punta-arenas" class="footer__link">Punta Arenas</a></li>
-            <li><a href="destinations.html#tierra-del-fuego" class="footer__link">Tierra del Fuego</a></li>
-            <li><a href="destinations.html#beagle-channel" class="footer__link">Beagle Channel</a></li>
-            <li><a href="destinations.html#strait-of-magellan" class="footer__link">Strait of Magellan</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="footer__col-title">Journal</div>
-          <ul class="footer__links" role="list">
-            <li><a href="#dientes" class="footer__link">The Dientes Circuit</a></li>
-            <li><a href="#magellan" class="footer__link">Magellan's Route</a></li>
-            <li><a href="#beagle" class="footer__link">Darwin's Channel</a></li>
-            <li><a href="#drake" class="footer__link">The Drake Passage</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="footer__col-title">Editorial</div>
-          <ul class="footer__links" role="list">
-            <li><a href="experiences.html" class="footer__link">Experiences</a></li>
-            <li><a href="antarctica.html" class="footer__link">Antarctica</a></li>
-            <li><a href="about.html" class="footer__link">About</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__bottom">
-        <p class="footer__copy">&copy; 2026 End of the World Travel. All rights reserved.</p>
-        <div class="footer__legal">
-          <a href="#" class="footer__legal-link">Privacy Policy</a>
-          <a href="sitemap.xml" class="footer__legal-link">Sitemap</a>
-        </div>
-      </div>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>"
+    />
+  </head>
+  <body>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-main">End of the World</span>
+        <span class="nav__logo-sub">Travel Editorial</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="destinations.html" class="nav__link">Destinations</a></li>
+        <li><a href="experiences.html" class="nav__link">Experiences</a></li>
+        <li><a href="antarctica.html" class="nav__link">Antarctica</a></li>
+        <li><a href="journal.html" class="nav__link">Journal</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="nav__mobile" id="mobileNav" role="dialog">
+      <button class="nav__close" id="navClose">✕</button>
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="destinations.html" class="nav__mobile-link">Destinations</a>
+      <a href="experiences.html" class="nav__mobile-link">Experiences</a>
+      <a href="antarctica.html" class="nav__mobile-link">Antarctica</a>
+      <a href="journal.html" class="nav__mobile-link">Journal</a>
+      <a href="about.html" class="nav__mobile-link">About</a>
     </div>
-  </footer>
 
-  <script src="js/main.js"></script>
-</body>
+    <main id="main-content">
+      <!-- Page Hero -->
+      <section class="page-hero" aria-label="Journal hero">
+        <div class="page-hero__bg">
+          <img
+            src="images/cape-horn.jpg"
+            alt="Cape Horn at the end of the world"
+            class="page-hero__img"
+            fetchpriority="high"
+          />
+          <div class="page-hero__overlay"></div>
+        </div>
+        <div class="page-hero__content">
+          <div class="container">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <a href="index.html">Home</a>
+              <span class="breadcrumb__sep">›</span>
+              <span>Travel Journal</span>
+            </nav>
+            <span class="text-label">Field Dispatches · Essays · Stories</span>
+            <h1 class="text-hero" style="margin-top: 0.5rem">
+              The Travel Journal
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- Journal Intro -->
+      <section class="section--sm section--dark">
+        <div class="container--narrow">
+          <p
+            class="text-body fade-in"
+            style="text-align: center; font-size: 1.1rem"
+          >
+            These are the stories that don't fit neatly into destination guides.
+            Field dispatches, personal essays, and detailed accounts of journeys
+            to the most remote corners of the southern world.
+          </p>
+        </div>
+      </section>
+
+      <!-- Featured Story -->
+      <section class="section" aria-labelledby="featured-journal-title">
+        <div class="container">
+          <div class="section__header fade-in">
+            <span class="text-label">Featured Essay</span>
+          </div>
+          <article class="feature-story fade-in" id="drake">
+            <div class="feature-story__img-wrap">
+              <img
+                src="images/antarctica.jpg"
+                alt="Drake Passage crossing to Antarctica"
+                class="feature-story__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="feature-story__content">
+              <div class="text-label">Antarctica · January 2026</div>
+              <h2 class="feature-story__title" id="featured-journal-title">
+                Two Days in the Drake Passage
+              </h2>
+              <p class="feature-story__body">
+                The Drake Passage has a reputation. The most treacherous body of
+                water on Earth — 1,000 km of open ocean between Cape Horn and
+                the South Shetland Islands, where the unimpeded westerly winds
+                of the roaring forties and furious fifties accelerate to speeds
+                that can sustain 8-meter swells for weeks at a time.
+              </p>
+              <p class="feature-story__body">
+                We left Puerto Williams at 6 pm on a Tuesday in January. By
+                midnight, the ship was rolling with a rhythm that would define
+                the next 48 hours. And yet — the crossing was magnificent. The
+                albatrosses arrived the first morning, drawn from what felt like
+                the open atmosphere itself, to wheel alongside the ship in
+                displays of aerial mastery that seemed to mock the very concept
+                of difficulty.
+              </p>
+              <div class="feature-story__meta">
+                <span class="feature-story__meta-item">Long Read</span>
+                <span class="feature-story__meta-item">·</span>
+                <span class="feature-story__meta-item">12 min read</span>
+                <span class="feature-story__meta-item">·</span>
+                <span class="feature-story__meta-item">Antarctica</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Article Grid -->
+      <section class="section section--dark" aria-labelledby="articles-title">
+        <div class="container">
+          <div class="section__header fade-in">
+            <span class="text-label">All Stories</span>
+            <h2 class="text-section section__title" id="articles-title">
+              From the Field
+            </h2>
+          </div>
+
+          <div class="grid-3">
+            <article class="article-card fade-in" id="dientes">
+              <a href="#dientes">
+                <div class="article-card__img-wrap">
+                  <img
+                    src="images/tierra-del-fuego.jpg"
+                    alt="Dientes de Navarino trekking circuit"
+                    class="article-card__img"
+                    loading="lazy"
+                  />
+                  <span class="article-card__tag">Trekking</span>
+                </div>
+                <div class="article-card__date">November 2025 · 8 min read</div>
+                <h3 class="article-card__title">
+                  Walking the Dientes: Navarino's Wild Circuit
+                </h3>
+                <p class="article-card__excerpt">
+                  The southernmost multi-day trek in the world. Five days
+                  through jagged peaks, glacial lakes, and views that seem to
+                  encompass the entire southern world.
+                </p>
+              </a>
+            </article>
+
+            <article class="article-card fade-in" id="magellan">
+              <a href="#magellan">
+                <div class="article-card__img-wrap">
+                  <img
+                    src="images/strait-magellan.jpg"
+                    alt="Strait of Magellan historic passage"
+                    class="article-card__img"
+                    loading="lazy"
+                  />
+                  <span class="article-card__tag">History</span>
+                </div>
+                <div class="article-card__date">October 2025 · 10 min read</div>
+                <h3 class="article-card__title">
+                  Sailing Magellan's Route: Five Centuries Later
+                </h3>
+                <p class="article-card__excerpt">
+                  In 1520, Magellan threaded his fleet through 580 km of
+                  channels. We followed his wake by expedition ship — in
+                  considerably more comfort, but no less wonder.
+                </p>
+              </a>
+            </article>
+
+            <article class="article-card fade-in" id="beagle">
+              <a href="#beagle">
+                <div class="article-card__img-wrap">
+                  <img
+                    src="images/beagle-channel.jpg"
+                    alt="Beagle Channel at dusk"
+                    class="article-card__img"
+                    loading="lazy"
+                  />
+                  <span class="article-card__tag">Nature</span>
+                </div>
+                <div class="article-card__date">
+                  September 2025 · 9 min read
+                </div>
+                <h3 class="article-card__title">
+                  Darwin's Channel: Science on the Beagle
+                </h3>
+                <p class="article-card__excerpt">
+                  Charles Darwin sailed these waters in 1833. His observations
+                  here would eventually change biology forever. We navigated the
+                  same channel with the same sense of living discovery.
+                </p>
+              </a>
+            </article>
+
+            <article class="article-card fade-in">
+              <a href="#">
+                <div class="article-card__img-wrap">
+                  <img
+                    src="images/puerto-williams.jpg"
+                    alt="Puerto Williams, world's southernmost city"
+                    class="article-card__img"
+                    loading="lazy"
+                  />
+                  <span class="article-card__tag">Dispatch</span>
+                </div>
+                <div class="article-card__date">August 2025 · 6 min read</div>
+                <h3 class="article-card__title">
+                  Life in Puerto Williams: End of the Road
+                </h3>
+                <p class="article-card__excerpt">
+                  A week in the world's southernmost city. The bar on the hill.
+                  The museum dedicated to the Yaghan people. The mountains
+                  behind, always watching.
+                </p>
+              </a>
+            </article>
+
+            <article class="article-card fade-in">
+              <a href="#">
+                <div class="article-card__img-wrap">
+                  <img
+                    src="images/cape-horn.jpg"
+                    alt="Cape Horn lighthouse"
+                    class="article-card__img"
+                    loading="lazy"
+                  />
+                  <span class="article-card__tag">Essay</span>
+                </div>
+                <div class="article-card__date">July 2025 · 7 min read</div>
+                <h3 class="article-card__title">
+                  The Lighthouse Keeper's World: Cape Horn
+                </h3>
+                <p class="article-card__excerpt">
+                  A Chilean naval family lives on Cape Horn, maintaining the
+                  lighthouse. For four months a year, they are the most isolated
+                  people in South America. What is that like?
+                </p>
+              </a>
+            </article>
+
+            <article class="article-card fade-in">
+              <a href="#">
+                <div class="article-card__img-wrap">
+                  <img
+                    src="images/punta-arenas.jpg"
+                    alt="Punta Arenas historical city"
+                    class="article-card__img"
+                    loading="lazy"
+                  />
+                  <span class="article-card__tag">Culture</span>
+                </div>
+                <div class="article-card__date">June 2025 · 8 min read</div>
+                <h3 class="article-card__title">
+                  Punta Arenas: A City at the End of Everything
+                </h3>
+                <p class="article-card__excerpt">
+                  The capital of Chilean Patagonia is one of the world's most
+                  historically layered cities — a place where Victorian mansions
+                  face Patagonian storms across the Strait of Magellan.
+                </p>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="section--sm">
+        <div class="container">
+          <div class="newsletter fade-in">
+            <span class="text-label">New Stories</span>
+            <h2
+              class="text-card-title"
+              style="margin-top: 0.5rem; font-size: 1.8rem"
+            >
+              The Southernmost Dispatch
+            </h2>
+            <p
+              class="text-body"
+              style="
+                margin-top: 0.75rem;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+              "
+            >
+              Receive new journal essays and field dispatches quarterly. No
+              noise, no frequency — only when we have something worth saying.
+            </p>
+            <form class="newsletter__form" aria-label="Newsletter signup">
+              <label for="journal-email" class="sr-only">Email address</label>
+              <input
+                type="email"
+                id="journal-email"
+                name="email"
+                class="newsletter__input"
+                placeholder="Your email address"
+                required
+                autocomplete="email"
+              />
+              <button type="submit" class="newsletter__btn">Subscribe</button>
+            </form>
+            <p class="text-caption" style="margin-top: 0.75rem">
+              No spam. Unsubscribe anytime.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer__top">
+          <div>
+            <div class="footer__brand-name">End of the World</div>
+            <div class="footer__brand-sub">Travel Editorial</div>
+            <p class="footer__tagline">
+              A premium editorial guide to the southernmost reaches of the
+              Earth.
+            </p>
+          </div>
+          <div>
+            <div class="footer__col-title">Destinations</div>
+            <ul class="footer__links" role="list">
+              <li>
+                <a href="destinations.html#puerto-williams" class="footer__link"
+                  >Puerto Williams</a
+                >
+              </li>
+              <li>
+                <a href="destinations.html#cape-horn" class="footer__link"
+                  >Cape Horn</a
+                >
+              </li>
+              <li>
+                <a href="destinations.html#punta-arenas" class="footer__link"
+                  >Punta Arenas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="destinations.html#tierra-del-fuego"
+                  class="footer__link"
+                  >Tierra del Fuego</a
+                >
+              </li>
+              <li>
+                <a href="destinations.html#beagle-channel" class="footer__link"
+                  >Beagle Channel</a
+                >
+              </li>
+              <li>
+                <a
+                  href="destinations.html#strait-of-magellan"
+                  class="footer__link"
+                  >Strait of Magellan</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer__col-title">Journal</div>
+            <ul class="footer__links" role="list">
+              <li>
+                <a href="#dientes" class="footer__link">The Dientes Circuit</a>
+              </li>
+              <li>
+                <a href="#magellan" class="footer__link">Magellan's Route</a>
+              </li>
+              <li>
+                <a href="#beagle" class="footer__link">Darwin's Channel</a>
+              </li>
+              <li>
+                <a href="#drake" class="footer__link">The Drake Passage</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer__col-title">Editorial</div>
+            <ul class="footer__links" role="list">
+              <li>
+                <a href="experiences.html" class="footer__link">Experiences</a>
+              </li>
+              <li>
+                <a href="antarctica.html" class="footer__link">Antarctica</a>
+              </li>
+              <li><a href="about.html" class="footer__link">About</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copy">
+            &copy; 2026 End of the World Travel. All rights reserved.
+          </p>
+          <div class="footer__legal">
+            <a href="#" class="footer__legal-link">Privacy Policy</a>
+            <a href="sitemap.xml" class="footer__legal-link">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
