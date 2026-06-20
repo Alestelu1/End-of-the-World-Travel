@@ -24,3 +24,27 @@ Puerto Williams Travel Guide
 
 Downloaded:
 2026-06-19
+
+## cape-horn.jpg
+
+Title:
+Cape Horn Coral Princess.jpg
+
+Author:
+amanderson2
+
+Source:
+Wikimedia Commons
+
+License:
+CC BY 2.0
+
+Original URL:
+https://commons.wikimedia.org/wiki/File:Cape_Horn_Coral_Princess.jpg
+
+Used On:
+Home destination card
+Destinations page - Cape Horn
+
+Downloaded:
+2026-06-19
