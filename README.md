@@ -249,9 +249,11 @@ Photographs remain subject to their respective licenses and attribution requirem
 
 ## Acknowledgements
 
-The project is made possible through the work of public institutions, researchers, museums, photographers, local communities and everyone who contributes to documenting Southern Chile.
+This project is inspired by the landscapes, communities, institutions, researchers, photographers, and organizations that help document and preserve Southern Chile.
 
-Their work helps preserve and share the knowledge of one of the world's most remarkable regions.
+Their work contributes to a better understanding of one of the world's southernmost regions.
+
+
 
 ---
 
